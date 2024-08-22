@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>third-assignment</title>
     <!-- Tailwind CSS -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
     <!-- daisyUI -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icon -->
-    <script src="https://kit.fontawesome.com/4365136773.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <h1>Try</h1>
-</body>
+    <script
+      src="https://kit.fontawesome.com/4365136773.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Manrope Font -->
+    <style>
+      .manrope-font {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="manrope-font">
+    <!-- Header section -->
+    <header
+      class="pt-11 px-5 h-14 bg-gradient-to-r from-white to-gray-100 lg:pt-12 lg:px-32"
+    >
+      <div class="flex justify-between">
+        <div class="flex gap-2">
+          <i
+            class="fa-solid fa-arrow-right -rotate-45 bg-[#abef5f] rounded-full p-3.5"
+          ></i>
+          <h1 class="font-black text-4xl">Rinterio</h1>
+        </div>
+        <div class="sm:hidden lg:block">
+          <nav class="flex list-none gap-4 ">
+            <li class="font-bold">Home</li>
+            <li class="text-gray-500">Services</li>
+            <li class="text-gray-500">Porfolio</li>
+            <li class="text-gray-500">Blogs</li>
+            <li class="text-gray-500">Contact Us</li>
+          </nav>
+        </div>
+        <div class="flex gap-6 sm:hidden lg:block">
+          <i class="fa-solid fa-magnifying-glass bg-white rounded-full p-2"></i>
+          <i class="bg-white rounded-full p-2 fa-solid fa-cart-shopping"></i>
+          <div class="flex bg-[#abef5f] p-2 rounded-3xl">
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 bg-[#000000] text-white rounded-full p-1.5"
+            ></i>
+            <h1 class="font-black text-sm">BookConsult</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main section -->
+    <main></main>
+    <!-- Footer section -->
+    <footer></footer>
+  </body>
 </html>
